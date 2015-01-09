@@ -1,123 +1,123 @@
 {
-  "assets": [
-    {
-      "filename": "style.css",
-      "file": "stylesheets/style.css",
-      "kind": "stylesheets",
-      "content_type": "text/css"
-    },
-    {
-      "filename": "layout.css",
-      "file": "stylesheets/layout.css",
-      "kind": "stylesheets",
-      "content_type": "text/css"
-    },
-    {
-      "filename": "black.gif",
-      "file": "images/black.gif",
-      "kind": "images",
-      "content_type": "image/gif"
-    },
-    {
-      "filename": "footer.gif",
-      "file": "images/footer.gif",
-      "kind": "images",
-      "content_type": "image/gif"
-    },
-    {
-      "filename": "frontbox.gif",
-      "file": "images/frontbox.gif",
-      "kind": "images",
-      "content_type": "image/gif"
-    },
-    {
-      "filename": "search.gif",
-      "file": "images/search.gif",
-      "kind": "images",
-      "content_type": "image/gif"
-    },
-    {
-      "filename": "shadow.gif",
-      "file": "images/shadow.gif",
-      "kind": "images",
-      "content_type": "image/gif"
-    }
-  ],
+  "description": "Detroit",
+  "name": "Detroit (Green)",
   "preview_medium": "http://static.edicy.com/designs/previews/detroit-green_medium.png",
+  "preview_small": "http://static.edicy.com/designs/previews/detroit-green_small.jpg",
   "author": "Tajo Oja",
   "layouts": [
     {
-      "title": "Front page",
-      "file": "layouts/front_page.tpl",
-      "layout_name": "page_front",
+      "content_type": "blog",
       "component": false,
-      "content_type": "page"
-    },
-    {
-      "title": "Common page",
-      "file": "layouts/common_page.tpl",
-      "layout_name": "page_default",
-      "component": false,
-      "content_type": "page"
-    },
-    {
-      "title": "Blog & News",
       "file": "layouts/blog___news.tpl",
       "layout_name": "blog_front",
-      "component": false,
-      "content_type": "blog"
+      "title": "Blog & News"
     },
     {
-      "title": "Blog article",
+      "content_type": "blog_article",
+      "component": false,
       "file": "layouts/blog_article.tpl",
       "layout_name": "blog_article",
+      "title": "Blog article"
+    },
+    {
+      "content_type": "page",
       "component": false,
-      "content_type": "blog_article"
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "title": "Common page"
     },
     {
-      "title": "Mainmenu",
-      "file": "components/mainmenu.tpl",
-      "layout_name": "",
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/front_page.tpl",
+      "layout_name": "page_front",
+      "title": "Front page"
+    },
+    {
+      "content_type": "component",
       "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "Languagemenu",
-      "file": "components/languagemenu.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "News",
-      "file": "components/news.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "Submenu",
-      "file": "components/submenu.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "SiteHeader",
-      "file": "components/siteheader.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "JS",
       "file": "components/js.tpl",
-      "layout_name": "",
+      "layout_name": "js",
+      "title": "js"
+    },
+    {
+      "content_type": "component",
       "component": true,
-      "content_type": "component"
+      "file": "components/languagemenu.tpl",
+      "layout_name": "languagemenu",
+      "title": "languagemenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/mainmenu.tpl",
+      "layout_name": "mainmenu",
+      "title": "mainmenu"
+    },
+    {
+      "content_type": "blog",
+      "component": false,
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog_front",
+      "title": "Blog & News"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/siteheader.tpl",
+      "layout_name": "siteheader",
+      "title": "siteheader"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/submenu.tpl",
+      "layout_name": "submenu",
+      "title": "submenu"
     }
   ],
-  "preview_small": "http://static.edicy.com/designs/previews/detroit-green_small.jpg",
-  "name": "Detroit (Green)",
-  "description": "Detroit"
+  "assets": [
+    {
+      "content_type": "image/gif",
+      "file": "images/black.gif",
+      "kind": "images",
+      "filename": "black.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/footer.gif",
+      "kind": "images",
+      "filename": "footer.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/frontbox.gif",
+      "kind": "images",
+      "filename": "frontbox.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/search.gif",
+      "kind": "images",
+      "filename": "search.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/shadow.gif",
+      "kind": "images",
+      "filename": "shadow.gif"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/layout.css",
+      "kind": "stylesheets",
+      "filename": "layout.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "filename": "style.css"
+    }
+  ]
 }
