@@ -32,7 +32,7 @@
 
         <div id="content_left">
 
-          <div id="bigpic" data-search-indexing-allowed="true">
+          <div id="bigpic" class="clearfix" data-search-indexing-allowed="true">
             {% content name="image" %}
           </div> <!-- //bigpic -->
 
@@ -49,21 +49,21 @@
           </div> <!-- //slogan -->
 
           <div id="frontbox">
-            <div id="frontbox-inner" class="clearfix" data-search-indexing-allowed="true">
+            <div id="frontbox-inner" class="clearfix" class="clearfix" data-search-indexing-allowed="true">
             {% content %}
             </div>
           </div> <!-- //frontbox -->
 
         </div> <!-- //content_left -->
 
-        <div id="content_right">
+        <div id="content_right" class="clearfix">
 
             {% include "News" %}
 
           <div id="darkbox">
 
             <div id="darkbox_inner">
-              <div id="darkbox_inner2" class="clearfix">
+              <div id="darkbox_inner2" class="clearfix" class="clearfix">
               {% content name="product" xpage="true" %}
               </div>
             </div> <!-- //darkbox_inner -->

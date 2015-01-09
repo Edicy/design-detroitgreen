@@ -46,7 +46,7 @@
           </div> <!-- //slogan -->
 
           <div id="content_left_inner">
-            <div id="content_left_inner2">
+            <div id="content_left_inner2" class="clearfix">
             {% addbutton class="add-article" %}
 
             {% for article in articles %}
@@ -72,13 +72,13 @@
 
         </div> <!-- //content_left -->
 
-        <div id="content_right">
+        <div id="content_right" class="clearfix">
 
 
           <div id="darkbox">
 
             <div id="darkbox_inner">
-              <div id="darkbox_inner2" class="clearfix">
+              <div id="darkbox_inner2" class="clearfix" class="clearfix">
               {% content name="product" xpage="true" %}
               </div>
             </div> <!-- //darkbox_inner -->
