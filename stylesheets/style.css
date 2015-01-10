@@ -37,6 +37,26 @@ h3 {
   line-height: 19px;
 }
 
+/* Editable content image */
+.edy-positionable-container-left {
+  margin-right: 15px;
+}
+.edy-positionable-container-right {
+  margin-left: 15px;
+}
+.edy-image-container-with-title:after {
+  display: block;
+  padding: 4px;
+  font-size: 10px;
+  line-height: 1.3em;
+  content: attr(data-title);
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 #wrap {
   margin-top: 35px;
 }
@@ -166,7 +186,7 @@ background: #AFD43F;
 
 #content_left_inner .blog h1 a {
  color: #257fa5;
-} 
+}
 #content_left_inner .blog h1 span {
   color: #afd43f;
 }
