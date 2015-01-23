@@ -105,6 +105,10 @@ background: #AFD43F;
   text-decoration: none;
 }
 
+#navmenu a.edy-cbtn:hover {
+  border-bottom: none;
+}
+
 #search .textbox {
   border: 1px solid #cfcfcf;
   background: white;
@@ -258,4 +262,10 @@ body .add-article {
   margin-bottom: 15px;
   display: inline-block !important;
   text-decoration: none;
+}
+
+#content .edy-btn-removecomment {
+  position: relative;
+  top: 2px;
+  line-height: 0 !important;
 }
