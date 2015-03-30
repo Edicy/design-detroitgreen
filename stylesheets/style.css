@@ -157,6 +157,7 @@ background: #AFD43F;
 
 #news td.first {
   color: #4baed7;
+  min-width: 31px;
 }
 
 #content_right h1, #content_right h2, #content_right h3 {
