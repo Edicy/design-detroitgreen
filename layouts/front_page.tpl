@@ -3,7 +3,7 @@
 
 <head>
 {% include "SiteHeader" %}
-  <title>{% unless page.site_title == "" %}{{ page.site_title }} &gt; {% endunless %} {{page.title}}</title>
+  <title>{% unless page.site_title == "" %}{{ page.site_title }} &gt; {% endunless %}{{page.title}}</title>
 </head>
 
 <body id="front">
