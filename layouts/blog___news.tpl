@@ -4,7 +4,7 @@
 <head>
 {% include "SiteHeader" %}
 {{ blog.rss_link }}
-  <title>{{site.name}} &gt; {{page.title}}</title>
+  <title>{{ page.site_title }} &gt; {{page.title}}</title>
 </head>
 
 <body>
